@@ -6,10 +6,12 @@ export DESIGN_NAME            = ibex_core
 export VERILOG_FILES         = $(sort $(wildcard ./designs/src/$(DESIGN_NICKNAME)/*.v))
 export SDC_FILE              = ./designs/$(PLATFORM)/$(DESIGN_NICKNAME)/constraint.sdc
 
-export CORE_UTILIZATION       =  40
-export CORE_ASPECT_RATIO      = 1
+export CORE_UTILIZATION       = 61
+export CORE_ASPECT_RATIO      = 1.239604786553707
 export CORE_MARGIN            = 2
 export PLACE_DENSITY_LB_ADDON  = 0.20
+
+# export ASAP7_USELVT = 1
 
 export ENABLE_DPO = 0
 
